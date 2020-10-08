@@ -1,8 +1,10 @@
-import 'package:catvsdog/splashScreen.dart';
+import 'package:flowerDetector/splashScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Cat Vs Dog",
+      title: "Flower Recognizer",
       home: MySplashScreen(),
     );
   }

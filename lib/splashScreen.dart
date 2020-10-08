@@ -1,4 +1,4 @@
-import 'package:catvsdog/home.dart';
+import 'package:flowerDetector/home.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 
@@ -14,19 +14,33 @@ class _MySplashScreenState extends State<MySplashScreen> {
       seconds: 3,
       navigateAfterSeconds: HomeScreen(),
       title: Text(
-        "Dog and Cat",
+        "Flower Recognizer",
         style: TextStyle(
           fontWeight: FontWeight.bold,
           fontSize: 30,
-          color: Color(0xFFE99600),
+          color: Colors.white,
         ),
       ),
       image: Image.asset(
-        "assets/cat.png",
+        "assets/flower.png",
       ),
-      backgroundColor: Colors.black,
+      gradientBackground: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          stops: [
+            0.004,
+            1
+          ],
+          colors: [
+            Color(
+              0xFFa8e063,
+            ),
+            Color(
+              0xFF56ab2f,
+            ),
+          ]),
       photoSize: 50,
-      loaderColor: Color(0xFFEEDA28),
+      loaderColor: Colors.white,
     );
   }
 }

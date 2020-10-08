@@ -1,5 +1,5 @@
-name: catvsdog
-description: A new Flutter project.
+name: flowerDetector
+description: An app that detects and recognizes a flower and also tells you the type of flower you are trying to test on via the camera input or gallery.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.

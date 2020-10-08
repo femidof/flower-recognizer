@@ -1,4 +1,4 @@
-# Cat and Dog Detector
+# Flower Recognizer
 
 A project that uses machine learning to detect if an image is a cat or a dog
 
