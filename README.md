@@ -23,4 +23,4 @@ And after the model has been trained, I exported it as tflite (tensorflow lite f
 
 ## Screenshots
 
-![Image description](http://g.recordit.co/51UU2uvFuH.gif)
+![Image description](http://g.recordit.co/aRGbeyQu3F.gif)
